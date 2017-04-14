@@ -18,7 +18,7 @@ object Main extends App {
 
   val p = Person("Gott", Address("In dem Himmel"))
 
-  // Doesn't work
+  // Doesn't work (uncomment to see)
 //  val q = quote {
 //    query[Person].insert(lift(p))
 //  }
